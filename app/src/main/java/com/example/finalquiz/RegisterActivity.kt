@@ -42,7 +42,7 @@ class RegisterActivity : AppCompatActivity() {
                     } else {
                         Toast.makeText(
                             this,
-                            "Email is already used",
+                            "Try again,(@gmail.com)!",
                             Toast.LENGTH_SHORT
                         ).show()
                     }
