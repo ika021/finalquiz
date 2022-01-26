@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:text="Quiz"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="5dp"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:hint="Email: "/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:hint="Password: "/>
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:hint="Confirm Password: "/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="200sp"
+        android:layout_height="80sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Start"
+        android:background="@color/material_on_primary_emphasis_medium"/>
+</LinearLayout>
