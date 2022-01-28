@@ -49,6 +49,7 @@ class UserFragment : Fragment(R.layout.fragment_user) {
 
                 Glide.with(this@UserFragment)
                     .load(img)
+                    .error(R.drawable.ic_launcher_background)
                     .placeholder(R.drawable.ic_launcher_foreground)
                     .into(imageView)
 

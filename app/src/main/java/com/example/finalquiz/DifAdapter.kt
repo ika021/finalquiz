@@ -25,6 +25,7 @@ class DifAdapter(private val difficultyList : ArrayList<Difficulty>) :
         val currentItem = difficultyList[position]
         Glide.with(holder.imageCar.context)
             .load(currentItem.imageUrl)
+            .error(R.drawable.ic_launcher_background)
             .placeholder(R.drawable.ic_launcher_foreground)
             .into(holder.imageCar)
 
